@@ -34,7 +34,7 @@ namespace RestSample
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "JwtTokenWithIdentity", Version = "v1", Description = "JwtTokenWithIdentity test app" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Rest Sample", Version = "v1", Description = "Rest Sample test app" });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
                     Name = "Authorization",

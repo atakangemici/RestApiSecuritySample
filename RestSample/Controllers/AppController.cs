@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json.Linq;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -11,31 +13,73 @@ namespace RestSample.Controllers
     [Route("api/app")]
     public class AppController : ControllerBase
     {
-        [Route("token"), HttpGet]
-        public IActionResult Authenticate()
-        {
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes("this is my custom Secret key for authentication");
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(new Claim[]
-                {
-                    new Claim(ClaimTypes.Name, "this is my custom Secret key for authentication")
-                }),
-                Expires = DateTime.UtcNow.AddDays(7),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-            };
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            var customToken = tokenHandler.WriteToken(token);
+        private IConfiguration Configuration;
 
-            return Ok(customToken);
+        public AppController(IConfiguration _configuration)
+        {
+            Configuration = _configuration;
+        }
+
+        [Route("token"), HttpPost]
+        public IActionResult GetToken([FromBody] JObject data)
+        {
+            var name = (string)data["name"];
+            var password = (string)data["password"];
+
+            if (name == "atakan" && password == "11aa22bb33")
+            {
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var key = Encoding.ASCII.GetBytes("this is my custom Secret key for authentication");
+                var tokenDescriptor = new SecurityTokenDescriptor
+                {
+                    Subject = new ClaimsIdentity(new Claim[]
+                    {
+                    new Claim(ClaimTypes.Name, "this is my custom Secret key for authentication")
+                    }),
+                    Expires = DateTime.UtcNow.AddDays(7),
+                    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+                };
+                var token = tokenHandler.CreateToken(tokenDescriptor);
+                var customToken = tokenHandler.WriteToken(token);
+
+                return Ok(customToken);
+            }
+            else
+            {
+                return BadRequest("Token işlemi için bilgiler hatalı.");
+            }
         }
 
         [Authorize]
-        [Route("secure_data"), HttpGet]
-        public IActionResult SecureData()
+        [Route("secure_data_with_token"), HttpGet]
+        public IActionResult SecureDataWithToken()
         {
             return Ok("Token ile yapılan istek başarılı.");
+        }
+
+        [Route("secure_data_with_restriction"), HttpGet]
+        public IActionResult SecureDataWithRestriction()
+        {
+            string ipSafeList = this.Configuration.GetSection("AppSettings")["IPSafeList"];
+            var remoteIpAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
+
+            if (ipSafeList == remoteIpAddress)
+                return Ok("IP Safe List ile yapılan istek başarılı.");
+            else
+                return BadRequest("istek başarısız !");
+        }
+
+        [Authorize]
+        [Route("secure_data_with_restriction_token"), HttpGet]
+        public IActionResult SecureDataWithRestrictionAndToken()
+        {
+            string ipSafeList = this.Configuration.GetSection("AppSettings")["IPSafeList"];
+            var remoteIpAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
+
+            if (ipSafeList == remoteIpAddress)
+                return Ok("IP SafeList ve Token ile yapılan istek başarılı.");
+            else
+                return BadRequest("istek başarısız !");
         }
     }
 }
