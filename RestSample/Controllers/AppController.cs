@@ -23,7 +23,7 @@ namespace RestSample.Controllers
         }
 
         [Route("token"), HttpPost]
-        public IActionResult GetToken([FromBody]UserModel user)
+        public IActionResult GetToken([FromBody] UserModel user)
         {
             var name = user.name;
             var password = user.password;
@@ -68,7 +68,7 @@ namespace RestSample.Controllers
             if (ipSafeList == remoteIpAddress)
                 return Ok("IP Safe List ile yapılan istek başarılı.");
             else
-                return BadRequest("istek başarısız !");
+                return BadRequest("Ip kısıtlamasına takıldınız !");
         }
 
         [Authorize]
@@ -81,7 +81,7 @@ namespace RestSample.Controllers
             if (ipSafeList == remoteIpAddress)
                 return Ok("IP SafeList ve Token ile yapılan istek başarılı.");
             else
-                return BadRequest("istek başarısız !");
+                return BadRequest("Ip kısıtlamasına takıldınız !");
         }
     }
 }
