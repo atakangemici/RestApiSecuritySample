@@ -45,7 +45,7 @@ namespace RestSample.Controllers
             }
             else
             {
-                return BadRequest("Token işlemi için bilgiler hatalı.");
+                return BadRequest("Token yetkilendirilmesi için girdiğiniz kullanıcı bilgileri hatalı !");
             }
         }
 
@@ -53,7 +53,7 @@ namespace RestSample.Controllers
         [Route("secure_data_with_token"), HttpGet]
         public IActionResult SecureDataWithToken()
         {
-            return Ok("Token ile yapılan istek başarılı.");
+            return Ok("Token yetkilendirilmesi ile yapılan istek başarılı.");
         }
 
         [Route("secure_data_with_restriction"), HttpGet]
@@ -63,9 +63,9 @@ namespace RestSample.Controllers
             var remoteIpAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
 
             if (ipSafeList == remoteIpAddress)
-                return Ok("IP Safe List ile yapılan istek başarılı.");
+                return Ok("IP adresiniz güvenli IP adresi listesinde , istek başarılı.");
             else
-                return BadRequest("Ip kısıtlamasına takıldınız !");
+                return BadRequest("IP adresiniz güvenli IP adresi listesinde ekli değil , istek başarısız !");
         }
 
         [Authorize]
@@ -76,9 +76,9 @@ namespace RestSample.Controllers
             var remoteIpAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
 
             if (ipSafeList == remoteIpAddress)
-                return Ok("IP SafeList ve Token ile yapılan istek başarılı.");
+                return Ok("IP adresiniz güvenli IP adresi listesinde , istek başarılı.");
             else
-                return BadRequest("Ip kısıtlamasına takıldınız !");
+                return BadRequest("IP adresiniz güvenli IP adresi listesinde ekli değil , istek başarısız !");
         }
     }
 }
