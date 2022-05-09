@@ -69,7 +69,7 @@ namespace RestSample.Controllers
         }
 
         [Authorize]
-        [Route("secure_data_with_restriction_token"), HttpGet]
+        [Route("secure_data_with_restriction_and_token"), HttpGet]
         public IActionResult SecureDataWithRestrictionAndToken()
         {
             string ipSafeList = this.Configuration.GetSection("AppSettings")["IPSafeList"];
