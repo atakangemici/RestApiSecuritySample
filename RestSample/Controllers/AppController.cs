@@ -25,10 +25,7 @@ namespace RestSample.Controllers
         [Route("token"), HttpPost]
         public IActionResult GetToken([FromBody] UserModel user)
         {
-            var name = user.name;
-            var password = user.password;
-
-            if (name == "atakan" && password == "11aa22bb33")
+            if (user.Name == "atakan" && user.Password == "11aa22bb33")
             {
                 var tokenHandler = new JwtSecurityTokenHandler();
                 var key = Encoding.ASCII.GetBytes("this is my custom Secret key for authentication");
