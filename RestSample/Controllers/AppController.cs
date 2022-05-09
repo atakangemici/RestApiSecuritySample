@@ -3,10 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json.Linq;
+using RestSample.Models;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace RestSample.Controllers
 {
@@ -21,10 +23,10 @@ namespace RestSample.Controllers
         }
 
         [Route("token"), HttpPost]
-        public IActionResult GetToken([FromBody] JObject data)
+        public IActionResult GetToken([FromBody]UserModel user)
         {
-            var name = (string)data["name"];
-            var password = (string)data["password"];
+            var name = user.name;
+            var password = user.password;
 
             if (name == "atakan" && password == "11aa22bb33")
             {
