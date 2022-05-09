@@ -65,7 +65,7 @@ namespace RestSample.Controllers
             if (ipSafeList == remoteIpAddress)
                 return Ok("IP adresiniz güvenli IP adresi listesinde , istek başarılı.");
             else
-                return BadRequest("IP adresiniz güvenli IP adresi listesinde ekli değil , istek başarısız !");
+                return Forbid("IP adresiniz güvenli IP adresi listesinde ekli değil , istek başarısız !");
         }
 
         [Authorize]
@@ -78,7 +78,7 @@ namespace RestSample.Controllers
             if (ipSafeList == remoteIpAddress)
                 return Ok("Token yetkilendirilmesi geçerli ve IP adresiniz güvenli IP adresi listesinde , istek başarılı.");
             else
-                return BadRequest("IP adresiniz güvenli IP adresi listesinde ekli değil , istek başarısız !");
+                return Forbid("IP adresiniz güvenli IP adresi listesinde ekli değil , istek başarısız !");
         }
     }
 }
