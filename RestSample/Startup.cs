@@ -34,7 +34,7 @@ namespace RestSample
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Rest Sample", Version = "v1", Description = "Rest Sample test app" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Rest Api Security", Version = "v1", Description = "Rest Api Security Sample Project" });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
                     Name = "Authorization",
