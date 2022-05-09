@@ -76,7 +76,7 @@ namespace RestSample.Controllers
             var remoteIpAddress = HttpContext.Connection.RemoteIpAddress?.ToString();
 
             if (ipSafeList == remoteIpAddress)
-                return Ok("IP adresiniz güvenli IP adresi listesinde , istek başarılı.");
+                return Ok("Token yetkilendirilmesi geçerli ve IP adresiniz güvenli IP adresi listesinde , istek başarılı.");
             else
                 return BadRequest("IP adresiniz güvenli IP adresi listesinde ekli değil , istek başarısız !");
         }
