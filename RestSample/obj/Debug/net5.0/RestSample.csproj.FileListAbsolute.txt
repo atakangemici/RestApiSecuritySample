@@ -41,3 +41,46 @@ D:\Projects\RestSample\RestSample\bin\Debug\net5.0\Microsoft.Owin.dll
 D:\Projects\RestSample\RestSample\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\Projects\RestSample\RestSample\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\Projects\RestSample\RestSample\bin\Debug\net5.0\Owin.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\appsettings.json
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\RestSample.exe
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\RestSample.deps.json
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\RestSample.runtimeconfig.json
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\RestSample.runtimeconfig.dev.json
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\RestSample.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\ref\RestSample.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\RestSample.pdb
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\System.Web.Http.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\System.Web.Http.Owin.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Microsoft.Owin.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Owin.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.csproj.AssemblyReference.cache
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.AssemblyInfoInputs.cache
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.AssemblyInfo.cs
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.csproj.CoreCompileInputs.cache
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\scopedcss\bundle\RestSample.styles.css
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\staticwebassets\RestSample.StaticWebAssets.Manifest.cache
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.RazorTargetAssemblyInfo.cache
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.csproj.CopyComplete
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\ref\RestSample.dll
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.pdb
+C:\Users\AtakanGemici\Desktop\Ali Şahin Atakan Gemici - Ağ - 2120003002\RestSample\RestSample\obj\Debug\net5.0\RestSample.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\RestSample\\RestSample\\RestSample.csproj": {}
+    "C:\\Users\\AtakanGemici\\Desktop\\Ali Şahin Atakan Gemici - Ağ - 2120003002\\RestSample\\RestSample\\RestSample.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\RestSample\\RestSample\\RestSample.csproj": {
+    "C:\\Users\\AtakanGemici\\Desktop\\Ali Şahin Atakan Gemici - Ağ - 2120003002\\RestSample\\RestSample\\RestSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\RestSample\\RestSample\\RestSample.csproj",
+        "projectUniqueName": "C:\\Users\\AtakanGemici\\Desktop\\Ali Şahin Atakan Gemici - Ağ - 2120003002\\RestSample\\RestSample\\RestSample.csproj",
         "projectName": "RestSample",
-        "projectPath": "D:\\Projects\\RestSample\\RestSample\\RestSample.csproj",
+        "projectPath": "C:\\Users\\AtakanGemici\\Desktop\\Ali Şahin Atakan Gemici - Ağ - 2120003002\\RestSample\\RestSample\\RestSample.csproj",
         "packagesPath": "C:\\Users\\AtakanGemici\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\RestSample\\RestSample\\obj\\",
+        "outputPath": "C:\\Users\\AtakanGemici\\Desktop\\Ali Şahin Atakan Gemici - Ağ - 2120003002\\RestSample\\RestSample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }
